@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  --usmp-red: #B5121B;
+  --usmp-dark: #8C0F15;
+  --usmp-light: #f4f6f9;
+  --text: #333;
+}
+
+/* .dark {
+  --text: #eee;
+} */
+
+@layer components {
+
+  .app-container {
+    @apply min-h-screen flex flex-col bg-[linear-gradient(135deg,#f4f6f9,#e9edf2)] text-[var(--text)];
+  }
+
+  .card {
+    @apply bg-white rounded-2xl p-6 shadow-lg transition-all relative overflow-hidden;
+  }
+
+  .card:hover {
+    @apply -translate-y-1 shadow-2xl;
+  }
+
+  .card::before {
+    content: "";
+    @apply absolute top-0 left-0 w-full h-1;
+    background: var(--usmp-red);
+  }
+
+}

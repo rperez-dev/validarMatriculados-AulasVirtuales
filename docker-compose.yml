@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+
+  backend:
+    build:
+      context: ./core   # 🔥 CLAVE
+    container_name: backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./core:/app
+
+  frontend:
+    build: ./aulasVirtuales-Front
+    container_name: react_frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./aulasVirtuales-Front:/app
+    command: npm run dev -- --host

@@ -1,0 +1,47 @@
+# ======================
+# GENERAL
+# ======================
+.env
+.env.*
+*.log
+*.sqlite3
+db.sqlite3
+
+# ======================
+# DOCKER
+# ======================
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
+
+# ======================
+# OS
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# VSCODE
+# ======================
+.vscode/
+
+# ======================
+# PYTHON (BACKEND)
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+env-aulasvirtuales/
+env/
+venv/
+ENV/
+
+# ======================
+# NODE (FRONTEND)
+# ======================
+node_modules/
+dist/
+build/
