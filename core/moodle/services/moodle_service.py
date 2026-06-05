@@ -88,13 +88,28 @@ def get_participants(request, course_id):
         "Cookie": cookie
     }
 
+    
+
     try:
+        print("========== REQUEST A MOODLE ==========")
+        print("URL:", url)
+        print("PARAMS:", params)
+        print("HEADERS:", headers)
+        print("PAYLOAD:", payload)
+        print("======================================")
+
         response = requests.post(
             url,
             params=params,
             headers=headers,
             json=payload
         )
+
+        print("========== RESPONSE DE MOODLE ==========")
+        print("STATUS:", response.status_code)
+        print("TEXT:", response.text)
+        print("========================================")
+
 
         data = response.json()
 
