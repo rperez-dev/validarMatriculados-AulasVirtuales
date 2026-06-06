@@ -11,7 +11,7 @@ MOODLE_SESSKEY = os.getenv("MOODLE_SESSKEY")
 MOODLE_COOKIE = os.getenv("MOODLE_COOKIE")
 SECRET_KEY = 'django-insecure-)*7to(w+8f^0-5j9##8344be5(ee0-l5+v@y75m(x%c5nibo!i'
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -40,11 +40,13 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'core.urls'
-# CORS_ALLOWED_ORIGINS = [
-#     "http://localhost:5173",
-#     "http://localhost:5174",
-# ]
-CORS_ALLOW_ALL_ORIGINS = True
+
+ALLOWED_HOSTS = [
+    "api.registrosacademicos.robertperez.site",
+    "registrosacademicos.robertperez.site",
+    "localhost",
+    "127.0.0.1"
+]
 
 CORS_ALLOW_HEADERS = [
     "content-type",
