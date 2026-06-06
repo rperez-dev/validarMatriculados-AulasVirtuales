@@ -6,6 +6,8 @@ export const getCoursesByCategory = async (
 ): Promise<Course[]> => {
   try {
     const response = await api.get<Course[]>(`/courses/${id}/`);
+    console.log("response service - courses", response)
+    console.log("response.data service - courses", response.data)
     return response.data;
   } catch (error) {
     console.error("Error al obtener cursos", error);

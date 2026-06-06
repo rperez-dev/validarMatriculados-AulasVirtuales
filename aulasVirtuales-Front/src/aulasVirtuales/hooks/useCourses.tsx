@@ -22,6 +22,7 @@ export const useCourses = () => {
     try {
       setLoading(true);
       const data = await getCoursesByCategory(node.id);
+      console.log("hook data couses", data)
       setCourses(data);
     } catch (error) {
       console.error(error);
