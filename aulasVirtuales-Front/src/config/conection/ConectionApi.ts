@@ -9,6 +9,7 @@ export const api = axios.create({
   },
 });
 
+// 🔥 INTERCEPTOR GLOBAL
 api.interceptors.request.use((config) => {
   const moodle = sessionStorage.getItem("moodle");
 
@@ -19,10 +20,32 @@ api.interceptors.request.use((config) => {
       config.headers["X-Moodle-BaseUrl"] = parsed.baseUrl;
       config.headers["X-Moodle-Sesskey"] = parsed.sesskey;
       config.headers["X-Moodle-Cookie"] = parsed.cookie;
-    } catch (error) {
-      console.error("Error parsing moodle session:", error);
+    } catch (e) {
+      console.error("Moodle parse error", e);
     }
   }
 
   return config;
 });
+// api.interceptors.request.use((config) => {
+//   console.log("🔥 INTERCEPTOR EJECUTADO");
+
+//   const moodle = sessionStorage.getItem("moodle");
+//   console.log("moodle", moodle);
+
+//   if (moodle) {
+//     const parsed = JSON.parse(moodle);
+
+//     console.log("📦 MOODLE CONFIG:", parsed);
+
+//     config.headers["X-Moodle-BaseUrl"] = parsed.baseUrl;
+//     config.headers["X-Moodle-Sesskey"] = parsed.sesskey;
+//     config.headers["X-Moodle-Cookie"] = parsed.cookie;
+//   } else {
+//     console.log("❌ NO HAY MOODLE EN SESSION");
+//   }
+
+//   console.log("📡 HEADERS FINALES:", config.headers);
+
+//   return config;
+// });

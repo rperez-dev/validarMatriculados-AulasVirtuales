@@ -5,7 +5,8 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
-    host: true,
-    allowedHosts: ["registrosacademicos.robertperez.site"],
+    host: "localhost",
+    port: 5173,
+    strictPort: true,
   },
 });
