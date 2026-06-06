@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     host: true,
     allowedHosts: [
-      "registrosacademicos.robertperez.site",
+      "api.registrosacademicos.robertperez.site",
       "localhost",
       "127.0.0.1",
     ],
