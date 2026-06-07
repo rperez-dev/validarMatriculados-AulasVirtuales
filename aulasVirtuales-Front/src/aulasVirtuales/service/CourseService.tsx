@@ -5,6 +5,7 @@ export const getCoursesByCategory = async (
   id: number
 ): Promise<Course[]> => {
   try {
+    console.log("api", api)
     const response = await api.get<Course[]>(`/courses/${id}/`);
     console.log("response service - courses", response)
     console.log("response.data service - courses", response.data)
