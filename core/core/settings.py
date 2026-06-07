@@ -41,7 +41,7 @@ ROOT_URLCONF = 'core.urls'
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    "api.registrosacademicos.robertperez.site",
+    "api-registrosacademicos.robertperez.site",
     "registrosacademicos.robertperez.site",
     "localhost",
     "127.0.0.1",
