@@ -99,7 +99,7 @@ export default function StudentsTableValidations({
 
           <div className="border rounded p-2 mt-4">
             <h3 className="font-semibold text-red-600 mb-2">
-              ❌ Alumnos del Aula Virtual NO validados ({systemNotFound.length})
+              ❌ ALUMNOS DEL AULA SIN VALIDAR ({systemNotFound.length})
             </h3>
 
             <div className="max-h-40 overflow-auto text-xs">
@@ -122,7 +122,7 @@ export default function StudentsTableValidations({
         <div className="border rounded p-2 flex flex-col gap-2">
 
           <h3 className="font-semibold">
-            📥 Pegar correos del SAP
+            📥 ALUMNOS MATRICULADOS
           </h3>
 
           <textarea
@@ -146,7 +146,7 @@ export default function StudentsTableValidations({
 
             <div className="border p-1 rounded max-h-40 overflow-y-auto">
               <p className="font-semibold text-green-600 mb-1">
-                ✔ Existentes del SAP
+                ✔ MATRICULADOS EN AULAS
               </p>
 
               {exists.map((email) => (
@@ -156,7 +156,7 @@ export default function StudentsTableValidations({
 
             <div className="border p-1 rounded max-h-40 overflow-y-auto">
               <p className="font-semibold text-red-600 mb-1">
-                ❌ No encontrados del SAP
+                ❌ MATRICULADOS NO ENCONTRADOS EN AULAS
               </p>
 
               {notFound.map((email) => (
