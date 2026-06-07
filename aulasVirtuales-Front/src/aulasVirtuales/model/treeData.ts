@@ -12,16 +12,16 @@ export const treeData = [
             name: "ACTIVIDADES",
             children: [
               { id: 152, name: "ACTIVIDADES I" },
-              { id: 153, name: "ACTIVIDADES II" }
-            ]
+              { id: 153, name: "ACTIVIDADES II" },
+            ],
           },
           {
             id: 3,
             name: "Estudios Generales",
             children: [
               { id: 4, name: "CICLO I" },
-              { id: 5, name: "CICLO II" }
-            ]
+              { id: 5, name: "CICLO II" },
+            ],
           },
           {
             id: 6,
@@ -29,45 +29,45 @@ export const treeData = [
             children: [
               {
                 id: 7,
-                name: "CICLO I"
+                name: "CICLO I",
               },
               {
                 id: 8,
-                name: "CICLO II"
+                name: "CICLO II",
               },
               {
                 id: 9,
-                name: "CICLO III"
+                name: "CICLO III",
               },
               {
                 id: 10,
-                name: "CICLO IV"
+                name: "CICLO IV",
               },
               {
                 id: 11,
-                name: "CICLO V"
+                name: "CICLO V",
               },
               {
                 id: 12,
-                name: "CICLO VI"
+                name: "CICLO VI",
               },
               {
                 id: 13,
-                name: "CICLO VII"
+                name: "CICLO VII",
               },
               {
                 id: 14,
-                name: "CICLO VIII"
+                name: "CICLO VIII",
               },
               {
                 id: 15,
-                name: "CICLO IX"
+                name: "CICLO IX",
               },
               {
                 id: 16,
-                name: "CICLO X"
-              }
-            ]
+                name: "CICLO X",
+              },
+            ],
           },
           {
             id: 17,
@@ -86,8 +86,8 @@ export const treeData = [
                   { id: 25, name: "CICLO VII" },
                   { id: 26, name: "CICLO VIII" },
                   { id: 27, name: "CICLO IX" },
-                  { id: 28, name: "CICLO X" }
-                ]
+                  { id: 28, name: "CICLO X" },
+                ],
               },
               {
                 id: 29,
@@ -102,10 +102,10 @@ export const treeData = [
                   { id: 36, name: "CICLO VII" },
                   { id: 37, name: "CICLO VIII" },
                   { id: 38, name: "CICLO IX" },
-                  { id: 39, name: "CICLO X" }
-                ]
-              }
-            ]
+                  { id: 39, name: "CICLO X" },
+                ],
+              },
+            ],
           },
           {
             id: 40,
@@ -122,8 +122,8 @@ export const treeData = [
               { id: 49, name: "CICLO IX" },
               { id: 50, name: "CICLO X" },
               { id: 51, name: "CICLO XI" },
-              { id: 52, name: "CICLO XII" }
-            ]
+              { id: 52, name: "CICLO XII" },
+            ],
           },
           {
             id: 79,
@@ -131,7 +131,7 @@ export const treeData = [
             children: [
               {
                 id: 185,
-                name: "EEGG"
+                name: "EEGG",
               },
               {
                 id: 80,
@@ -147,8 +147,8 @@ export const treeData = [
                   { id: 88, name: "CICLO VIII" },
                   { id: 89, name: "CICLO IX" },
                   { id: 90, name: "CICLO X" },
-                  { id: 91, name: "ELECTIVOS" }
-                ]
+                  { id: 91, name: "ELECTIVOS" },
+                ],
               },
               {
                 id: 92,
@@ -164,8 +164,8 @@ export const treeData = [
                   { id: 100, name: "CICLO VIII" },
                   { id: 101, name: "CICLO IX" },
                   { id: 102, name: "CICLO X" },
-                  { id: 103, name: "ELECTIVOS" }
-                ]
+                  { id: 103, name: "ELECTIVOS" },
+                ],
               },
               {
                 id: 104,
@@ -181,34 +181,34 @@ export const treeData = [
                   { id: 112, name: "CICLO VIII" },
                   { id: 113, name: "CICLO IX" },
                   { id: 114, name: "CICLO X" },
-                  { id: 115, name: "ELECTIVOS" }
-                ]
+                  { id: 115, name: "ELECTIVOS" },
+                ],
               },
               {
                 id: 161,
                 name: "ING. CIBERSEGURIDAD",
                 children: [
                   { id: 186, name: "CICLO I" },
-                  { id: 187, name: "CICLO II" }
-                ]
+                  { id: 187, name: "CICLO II" },
+                ],
               },
               {
                 id: 162,
                 name: "ING. CIENCIA DE DATOS",
                 children: [
                   { id: 188, name: "CICLO I" },
-                  { id: 189, name: "CICLO II" }
-                ]
+                  { id: 189, name: "CICLO II" },
+                ],
               },
               {
                 id: 163,
                 name: "INTELIGENCIA ARTIFICAL",
                 children: [
                   { id: 190, name: "CICLO I" },
-                  { id: 191, name: "CICLO II" }
-                ]
-              }
-            ]
+                  { id: 191, name: "CICLO II" },
+                ],
+              },
+            ],
           },
           {
             id: 117,
@@ -223,11 +223,11 @@ export const treeData = [
               { id: 124, name: "CICLO VII" },
               { id: 125, name: "CICLO VIII" },
               { id: 126, name: "CICLO IX" },
-              { id: 127, name: "CICLO X" }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+              { id: 127, name: "CICLO X" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];

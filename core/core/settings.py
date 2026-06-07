@@ -41,7 +41,7 @@ ROOT_URLCONF = 'core.urls'
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    "api-registrosacademicos.robertperez.site",
+    "api-aulas-registrosacademicos.robertperez.site",
     "registrosacademicos.robertperez.site",
     "localhost",
     "127.0.0.1",
@@ -52,7 +52,7 @@ CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://registrosacademicos.robertperez.site",
+    "https://aulas-registrosacademicos.robertperez.site",
 ]
 
 CORS_ALLOW_HEADERS = [

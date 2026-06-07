@@ -8,7 +8,7 @@ export default defineConfig({
     host: "0.0.0.0",
     port: 5173,
     allowedHosts: [
-      "registrosacademicos.robertperez.site",
+      "aulas-registrosacademicos.robertperez.site",
       "localhost",
       "127.0.0.1",
     ],
