@@ -41,10 +41,10 @@ ROOT_URLCONF = 'core.urls'
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    "localhost",
-    "127.0.0.1",
     "api.registrosacademicos.robertperez.site",
     "registrosacademicos.robertperez.site",
+    "localhost",
+    "127.0.0.1",
 ]
 
 CORS_ALLOW_ALL_ORIGINS = False
